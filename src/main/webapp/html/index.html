@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Servicio Biblioteca</title>
+</head>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+	integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+	crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+			<a class="navbar-brand" href="#"><strong>Servicio</strong>Biblioteca</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarNav" aria-controls="navbarNav"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+		</div>
+	</nav>
+
+	<div class="container">
+
+		<section class="seccion-apis">
+			<div class="contenedor-detalle-servicio" id="libro">
+				<div class="row">
+					<div class="col contenedor-titulo-servicio">
+						<h2>
+							<a href="modelosDescripcion/libro.html">Libro</a>
+						</h2>
+					</div>
+				</div>
+				<table class="table-sm table table-striped">
+					<thead>
+						<tr>
+							<th>API</th>
+							<th>Descripción</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+						<td>GET api/libro</td>
+							<td>
+								<p>Obtiene una lista de registros</p>
+							</td>
+						</tr>
+						<tr>
+							<td>GET api/Libro/{id}</td>
+							<td>
+								<p>Obtiene un registro específico por Id</p>
+							</td>
+						</tr>
+						<tr>
+							<td>PUT api/Libro/{id}</td>
+							<td>
+								<p>Actualiza un registro</p>
+							</td>
+						</tr>
+						<tr>
+							<td>POST api/Libro</td>
+							<td>
+								<p>Creación de registro</p>
+							</td>
+						</tr>
+						<tr>
+							<td>DELETE api/Libro/{id}</td>
+							<td>
+								<p>Eliminación de registro</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<section class="seccion-apis">
+			<div class="contenedor-detalle-servicio" id="autor">
+				<div class="row">
+					<div class="col contenedor-titulo-servicio">
+						<h2>
+							<a href="modelosDescripcion/autor.html">Autor</a>
+						</h2>
+					</div>
+				</div>
+				<table class="table-sm table table-striped">
+					<thead>
+						<tr>
+							<th>API</th>
+							<th>Descripción</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>GET api/autor</td>
+							<td>
+								<p>Obtiene una lista de registros</p>
+							</td>
+						</tr>
+						<tr>
+							<td>GET api/autor/{id}</td>
+							<td>
+								<p>Obtiene un registro específico por Id</p>
+							</td>
+						</tr>
+						<tr>
+							<td>PUT api/autor/{id}</td>
+							<td>
+								<p>Actualiza un registro</p>
+							</td>
+						</tr>
+						<tr>
+							<td>POST api/autor</td>
+							<td>
+								<p>Creación de registro</p>
+							</td>
+						</tr>
+						<tr>
+							<td>DELETE api/autor/{id}</td>
+							<td>
+								<p>Eliminación de registro</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<section class="seccion-apis">
+			<div class="contenedor-detalle-servicio" id="bibliotecario">
+				<div class="row">
+					<div class="col contenedor-titulo-servicio">
+						<h2>
+							<a href="modelosDescripcion/bibliotecario.html">Bibliotecario</a>
+						</h2>
+					</div>
+				</div>
+				<table class="table-sm table table-striped">
+					<thead>
+						<tr>
+							<th>API</th>
+							<th>Descripción</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>GET api/bibliotecario</td>
+							<td>
+								<p>Obtiene una lista de registros</p>
+							</td>
+						</tr>
+						<tr>
+							<td>GET api/bibliotecario/{id}</td>
+							<td>
+								<p>Obtiene un registro específico por Id</p>
+							</td>
+						</tr>
+						<tr>
+							<td>PUT api/bibliotecario/{id}</td>
+							<td>
+								<p>Actualiza un registro</p>
+							</td>
+						</tr>
+						<tr>
+							<td>POST api/bibliotecario</td>
+							<td>
+								<p>Creación de registro</p>
+							</td>
+						</tr>
+						<tr>
+							<td>DELETE api/bibliotecario/{id}</td>
+							<td>
+								<p>Eliminación de registro</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<section class="seccion-apis">
+			<div class="contenedor-detalle-servicio" id="categoria">
+				<div class="row">
+					<div class="col contenedor-titulo-servicio">
+						<h2>
+							<a href="modelosDescripcion/categoria.html">Categoría</a>
+						</h2>
+					</div>
+				</div>
+				<table class="table-sm table table-striped">
+					<thead>
+						<tr>
+							<th>API</th>
+							<th>Descripción</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>GET api/categoria</td>
+							<td>
+								<p>Obtiene una lista de registros</p>
+							</td>
+						</tr>
+						<tr>
+							<td>GET api/categoria/{id}</td>
+							<td>
+								<p>Obtiene un registro específico por Id</p>
+							</td>
+						</tr>
+						<tr>
+							<td>PUT api/categoria/{id}</td>
+							<td>
+								<p>Actualiza un registro</p>
+							</td>
+						</tr>
+						<tr>
+							<td>POST api/categoria</td>
+							<td>
+								<p>Creación de registro</p>
+							</td>
+						</tr>
+						<tr>
+							<td>DELETE api/categoria/{id}</td>
+							<td>
+								<p>Eliminación de registro</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<section class="seccion-apis">
+			<div class="contenedor-detalle-servicio" id="tipoEjemplar">
+				<div class="row">
+					<div class="col contenedor-titulo-servicio">
+						<h2>
+							<a href="modelosDescripcion/tipoEjemplar.html">TipoEjemplar</a>
+						</h2>
+					</div>
+				</div>
+				<table class="table-sm table table-striped">
+					<thead>
+						<tr>
+							<th>API</th>
+							<th>Descripción</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>GET api/tipoEjemplar</td>
+							<td>
+								<p>Obtiene una lista de registros</p>
+							</td>
+						</tr>
+						<tr>
+							<td>GET api/tipoEjemplar/{id}</td>
+							<td>
+								<p>Obtiene un registro específico por Id</p>
+							</td>
+						</tr>
+						<tr>
+							<td>PUT api/tipoEjemplar/{id}</td>
+							<td>
+								<p>Actualiza un registro</p>
+							</td>
+						</tr>
+						<tr>
+							<td>POST api/tipoEjemplar</td>
+							<td>
+								<p>Creación de registro</p>
+							</td>
+						</tr>
+						<tr>
+							<td>DELETE api/tipoEjemplar/{id}</td>
+							<td>
+								<p>Eliminación de registro</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<section class="seccion-apis">
+			<div class="contenedor-detalle-servicio" id="usuario">
+				<div class="row">
+					<div class="col contenedor-titulo-servicio">
+						<h2>
+							<a href="modelosDescripcion/usuario.html">Usuario</a>
+						</h2>
+					</div>
+				</div>
+				<table class="table-sm table table-striped">
+					<thead>
+						<tr>
+							<th>API</th>
+							<th>Descripción</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>GET api/usuario</td>
+							<td>
+								<p>Obtiene una lista de registros</p>
+							</td>
+						</tr>
+						<tr>
+							<td>GET api/usuario/{id}</td>
+							<td>
+								<p>Obtiene un registro específico por Id</p>
+							</td>
+						</tr>
+						<tr>
+							<td>PUT api/usuario/{id}</td>
+							<td>
+								<p>Actualiza un registro</p>
+							</td>
+						</tr>
+						<tr>
+							<td>POST api/usuario</td>
+							<td>
+								<p>Creación de registro</p>
+							</td>
+						</tr>
+						<tr>
+							<td>DELETE api/usuario/{id}</td>
+							<td>
+								<p>Eliminación de registro</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+	</div>
+
+</body>
+</html>
